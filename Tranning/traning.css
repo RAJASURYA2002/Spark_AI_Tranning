@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #d3e3fd;
+  font-family: "Open Sans", sans-serif;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.Entire_page {
+    position: relative;
+  background-color: #031525;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* --------------Side_Nav_Bar----------------- */
+.Side_Nav_Bar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 3%;
+  height: 100%;
+  background-color: #071a2b;
+}
+.fa-solid {
+  cursor: pointer;
+  font-size: 20px;
+  color: #96a7bf;
+  text-align: center;
+}
+.Icon_Style {
+  cursor: pointer;
+  width: 100%;
+  height: 50px;
+  padding: 12px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.Icon_Style:hover {
+  background-color: #031525;
+}
+/* --------------Side_Nav_Bar----------------- */
+.Main_Container {
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+}
+/* --------------Top_Nav_Bar----------------- */
+.Top_Nav_Bar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  /* border: 3px solid red; */
+}
+.Top_Nav_side_Icon {
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid green; */
+  width: 13%;
+}
+/* --------------Top_Nav_Bar----------------- */
+/* --------------Top_Nav_Name----------------- */
+.Top_Nav_Name {
+  margin-top: 20px;
+  font-size: 30px;
+}
+/* --------------Top_Nav_Name----------------- */
+.Button {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  /* border: 3px solid red; */
+  margin-left: 68px;
+}
+.btn {
+  cursor: pointer;
+  width: 100px;
+  height: 45px;
+  background-color: transparent;
+  color: #87b0f3;
+  font-weight: bolder;
+  font-size: 15px;
+  border: none;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+.btn:hover {
+  background-color: #12273e;
+}
+/* --------------Input_Container----------------- */
+.Input_Container {
+  margin: auto;
+  margin-top: 10px;
+  width: 90%;
+  height: 70%;
+  border-radius: 10px;
+  background-color: #0d2136;
+  overflow: hidden;
+  /* border: 3px solid red; */
+}
+
+.Selected_name {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  width: 100%;
+  height: 50px;
+  background-color: #162c46;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: 1px solid #4f647d;
+}
+.Input_view {
+  display: flex;
+  height: 100%;
+  /* justify-content: space-between; */
+}
+.heading {
+  padding: 7px;
+  width: 100%;
+  height: 40px;
+  background-color: #031525;
+  color: #9bacc7;
+  border-top: 1px solid #4f647d;
+  border-right: 1px solid #4f647d;
+  border-bottom: 1px solid #4f647d;
+  text-align: center;
+  font-weight: bold;
+  font-weight: 13px;
+}
+.Query_Name {
+  flex: 3;
+  border-right: 1px solid #4f647d;
+  
+  /* border: 3px solid red; */
+}
+.Query {
+    flex: 6;
+    border-right: 1px solid #4f647d;
+  }
+  .Result {
+    flex: 7;
+    border-right: 1px solid #4f647d;
+  }
+  .Query_Name_List{
+    height: 100%;
+    overflow-y: scroll;
+  }
+.Qyery_List {
+    cursor: pointer;
+  padding: 10px;
+  margin-top: 7px;
+  background-color: #162c46;
+  text-align: center;
+}
+.scrol::-webkit-scrollbar {
+  width: 1px;
+}
+.scrol::-webkit-scrollbar-thumb:hover {
+  background-color: #495c72;
+  border-radius: 15px;
+}
+.scrol::-webkit-scrollbar-track {
+  background-color: #495c72;
+  border-radius: 15px;
+}
+
+
+/* --------------Input_Container----------------- */
+
+
+/* -----------------------------------------Add_Pop_UP-------------------- */
+.Add_Pop_UP{
+    position: absolute;
+    left: 25%;
+    top: 20%;
+    width: 50%;
+    height: 60%;
+    border: 3px solid #031525;
+    background-color: #0d2136;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+/* -----------------------------------------Add_Pop_UP-------------------- */
