@@ -2,67 +2,7 @@
     {
         "ID":1,
         "Name":"Welcome message",
-        "Query":["hi how are you"],
-        "Answer":"i am fine what about you"
-    },
-    {
-        "ID":1,
-        "Name":"Welcome message",
-        "Query":["hi how are you"],
-        "Answer":"i am fine what about you"
-    },
-    {
-        "ID":1,
-        "Name":"Welcome message",
-        "Query":["hi how are you"],
-        "Answer":"i am fine what about you"
-    },
-    {
-        "ID":1,
-        "Name":"Welcome message",
-        "Query":["hi how are you"],
-        "Answer":"i am fine what about you"
-    },
-    {
-        "ID":1,
-        "Name":"Welcome message",
-        "Query":["hi how are you"],
-        "Answer":"i am fine what about you"
-    },
-    {
-        "ID":1,
-        "Name":"Welcome message",
-        "Query":["hi how are you"],
-        "Answer":"i am fine what about you"
-    },
-    {
-        "ID":1,
-        "Name":"Welcome message",
-        "Query":["hi how are you"],
-        "Answer":"i am fine what about you"
-    },
-    {
-        "ID":1,
-        "Name":"Welcome message",
-        "Query":["hi how are you"],
-        "Answer":"i am fine what about you"
-    },
-    {
-        "ID":1,
-        "Name":"Welcome message",
-        "Query":["hi how are you"],
-        "Answer":"i am fine what about you"
-    },
-    {
-        "ID":1,
-        "Name":"Welcome message",
-        "Query":["hi how are you"],
-        "Answer":"i am fine what about you"
-    },
-    {
-        "ID":1,
-        "Name":"Welcome message",
-        "Query":["hi how are you"],
+        "Question":["hi how are you"],
         "Answer":"i am fine what about you"
     }
 ]
