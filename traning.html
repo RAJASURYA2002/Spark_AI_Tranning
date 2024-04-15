@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spark_Tranning</title>
-    <link rel="stylesheet" href="/Tranning/traning.css" />
-    <link rel="stylesheet" href="/Tranning/color.css" />
+    <link rel="stylesheet" href="traning.css" />
+   
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -95,7 +95,7 @@
               ></i>
               <span style="font-size: 20px">Welcome message</span>
             </p>
-            <p style="word-spacing: 10px">Created on: 12:00 AM - 31/03/2024</p>
+            <p style="word-spacing: 10px">Update on: 12:00 AM - 31/03/2024</p>
           </div>
           <div class="Input_view">
             <div class="Query_Name ">
@@ -104,9 +104,7 @@
               </div>
               <div class="Query_Name_List scrol">
                 <!-- Add_Query_Name -->
-                <div class="Qyery_List">
-                  <p>1: Welcome message</p>
-                </div>
+                  <!-- -------- -->
                 <!-- Add_Query_Name -->
               </div>
             </div>
@@ -137,10 +135,42 @@
       </div>
 
       <!-- ------------Pop_UP----------- -->
-          <div class="Add_Pop_UP display">
-
+          <div class="Add_Pop_UP displa">
+            <div class="Input_nav_Bar">
+              <div>
+              <h3>Start a collection</h4>
+                <p style="font-size: 15px;font-weight: 400;color: #041e49;">Query ID: 1</p>
+              </div>
+                <input type="text" class="Input_filed" placeholder="Enter Query Name">
+            </div>
+            <div class="Collection_input scrol displa">
+            <div class="list_query" style="display: flex;justify-content: space-between;">
+              <input type="text" class="Input_filed" style="width: 90%;" placeholder="Enter Query 1">
+              <i class="fa-solid fa-circle-plus add_minus_icon"></i> 
+            </div>
+            <div class="add_list">
+            <div class="list_query" style="display: flex;justify-content: space-between;">
+              <input type="text" class="Input_filed" style="width: 80%;" placeholder="Enter Query 2">
+              <i class="fa-solid fa-circle-plus add_minus_icon"></i> 
+              <i class="fa-solid fa-minus add_minus_icon"></i> 
+            </div>
+          </div>
+            </div>
+            <div class="Answer scrol display">
+              <textarea name="" id="" cols="10" rows="13" class="Input_filed" style="width: 90%; resize: none;"></textarea>
+            </div>
+            <div style="display: flex;position: absolute;bottom: 0;right: 0;">
+            <button class="btn">
+              Back
+            </button>
+            <button class="btn">
+              Next
+            </button>
+            </div>
           </div>
       <!-- ------------Pop_UP----------- -->
     </section>
   </body>
+  <script src="script.js"></script>
+  <!-- <script src="/Tranning/test.txt"></script> -->
 </html>
