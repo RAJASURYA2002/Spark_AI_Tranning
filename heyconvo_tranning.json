@@ -2,7 +2,7 @@
     {
         "ID":1,
         "Name":"Welcome message",
-        "Question":["hi how are you"],
+        "Question":["hi how are you","how are you"],
         "Answer":"Hi there! I'm fine , i'm  eager to assist you with anything you need. How can I help you today?"
     },
     {
